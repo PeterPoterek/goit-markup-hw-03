@@ -28,9 +28,13 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 menu {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* end of utility classes*/
 
@@ -211,6 +215,19 @@ menu {
 
 /* Our work section */
 
+.our-work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-work-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 72px;
+}
 .our-work-title {
   color: var(--color-dark);
 
@@ -223,6 +240,8 @@ menu {
   text-align: center;
 }
 .our-work-list {
+  display: flex;
+  gap: 24px;
 }
 .our-work-image {
   border: 1px solid var(--color-accent);
