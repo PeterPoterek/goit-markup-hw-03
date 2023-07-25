@@ -68,6 +68,8 @@ p {
   display: flex;
   justify-content: center;
   align-self: center;
+
+  border-bottom: 1px solid var(--color-accent);
 }
 .header-wrapper {
   display: flex;
@@ -382,7 +384,24 @@ p {
 /* End of Footer section */
 
 /* Filter section */
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filter-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 96px;
+}
+
 .filter-list {
+  display: flex;
+  gap: 24px;
 }
 .filter-item {
   color: var(--color-primary);
@@ -411,7 +430,16 @@ p {
 /* End of Filter section */
 
 /* Gallery section */
+.gallery-section {
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
 .gallery-image-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 .gallery-image-card {
   background-color: var(--color-white-background);
