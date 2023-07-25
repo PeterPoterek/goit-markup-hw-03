@@ -52,6 +52,10 @@ figure {
   padding: 0;
   margin: 0;
 }
+p {
+  padding: 0;
+  margin: 0;
+}
 /* end of utility classes*/
 
 /* Header section */
@@ -60,7 +64,7 @@ figure {
 
   padding-left: 156px;
   padding-right: 156px;
-  margin: 24px 24px;
+  padding: 24px 24px;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -199,6 +203,7 @@ figure {
 
 .company-values-list {
   display: flex;
+  justify-content: center;
 
   margin: 0;
   padding: 0;
@@ -339,9 +344,11 @@ figure {
   background-color: var(--color-dark);
   padding-top: 101.5px;
   padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-wraper {
-  padding-left: 156px;
 }
 .footer-list {
   display: flex;
