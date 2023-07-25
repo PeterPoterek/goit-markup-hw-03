@@ -121,6 +121,8 @@ body {
   align-items: center;
 
   gap: 48px;
+
+  padding: 188px 188px;
 }
 .hero-title {
   color: var(--color-white-background);
@@ -131,8 +133,6 @@ body {
   letter-spacing: 1.12px;
 
   text-align: center;
-
-  margin-top: 188px;
 }
 .hero-button {
   color: var(--color-white-background);
