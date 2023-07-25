@@ -20,7 +20,17 @@ body {
 }
 /* utility classes */
 .container {
-  width: 1440px;
+  width: 1128px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+ul {
+  list-style: none;
+}
+menu {
+  list-style: none;
 }
 /* end of utility classes*/
 
@@ -64,7 +74,6 @@ body {
 .menu-list {
   display: flex;
   gap: 40px;
-  list-style: none;
 
   padding: 0;
 }
@@ -85,7 +94,6 @@ body {
 .contact-list {
   display: flex;
   gap: 40px;
-  list-style: none;
 
   padding: 0;
 }
@@ -152,8 +160,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   max-width: 635px;
-
-  padding: 16px;
+  padding: 16px 32px;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -162,9 +169,26 @@ body {
 /* End of Hero section */
 
 /* Company Values section */
-.company-values-list {
-  list-style: none;
+.company-values-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
+
+.company-values-list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+.company-values-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 264px;
+}
+
 .company-values-label {
   color: var(--color-dark);
 
@@ -172,10 +196,16 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  margin: 0;
+  padding: 0;
 }
 .company-values-description {
   line-height: 1.5;
   letter-spacing: 0.32px;
+
+  margin: 0;
+  padding: 0;
 }
 /* End of Company Values */
 
@@ -193,7 +223,6 @@ body {
   text-align: center;
 }
 .our-work-list {
-  list-style: none;
 }
 .our-work-image {
   border: 1px solid var(--color-accent);
@@ -217,7 +246,6 @@ body {
   text-align: center;
 }
 .our-team-list {
-  list-style: none;
 }
 .our-team-card {
   background-color: var(--color-white-background);
@@ -249,7 +277,6 @@ body {
   background-color: var(--color-dark);
 }
 .footer-list {
-  list-style: none;
 }
 .footer-logo {
   color: var(--color-light);
@@ -277,7 +304,6 @@ body {
 
 /* Filter section */
 .filter-list {
-  list-style: none;
 }
 .filter-item {
   color: var(--color-primary);
@@ -307,7 +333,6 @@ body {
 
 /* Gallery section */
 .gallery-image-list {
-  list-style: none;
 }
 .gallery-image-card {
   background-color: var(--color-white-background);
