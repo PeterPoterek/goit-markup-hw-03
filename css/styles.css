@@ -65,13 +65,11 @@ p {
   padding-left: 156px;
   padding-right: 156px;
   padding: 24px 24px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
 
   border-bottom: 1px solid var(--color-accent);
 }
 .header-wrapper {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,13 +431,26 @@ p {
 .gallery-section {
   padding-top: 72px;
   padding-bottom: 120px;
-}
-.gallery-image-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+}
+.gallery-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-image-list {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-image-listitem {
+  display: flex;
+  flex-basis: calc((100% - 24px) / 3);
 }
 .gallery-image-card {
   background-color: var(--color-white-background);
