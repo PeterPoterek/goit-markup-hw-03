@@ -18,10 +18,20 @@ body {
 
   font-size: 16px;
 }
+/* utility classes */
+.container {
+  width: 1158px;
+}
+/* end of utility classes*/
 
 /* Header section */
 .header-container {
   background-color: var(--color-white-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 24px 24px;
 }
 .header-logo {
   color: var(--color-dark);
@@ -39,9 +49,18 @@ body {
 .header-logo-highlighted {
   color: var(--color-primary);
 }
+.nav-list {
+  display: flex;
+}
 
 .menu-list {
+  display: flex;
+  gap: 40px;
   list-style: none;
+  margin-left: 76px;
+  margin-right: 332px;
+
+  padding: 0;
 }
 .menu-item {
   color: var(--color-dark);
@@ -58,7 +77,11 @@ body {
 }
 
 .contact-list {
+  display: flex;
+  gap: 40px;
   list-style: none;
+
+  padding: 0;
 }
 
 .contact-item {
