@@ -414,6 +414,8 @@ p {
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+
+  padding: 12px 24px;
 }
 .filter-item:focus,
 .filter-item:hover {
@@ -428,6 +430,7 @@ p {
 /* End of Filter section */
 
 /* Gallery section */
+
 .gallery-section {
   padding-top: 72px;
   padding-bottom: 120px;
@@ -450,12 +453,14 @@ p {
 }
 .gallery-image-listitem {
   display: flex;
-  border: 0 1px 1px 1px solid var(--color-accent);
 }
 .gallery-image-card {
   background-color: var(--color-white-background);
 }
 .gallery-image-card-wrapper {
+  border: 1px solid var(--color-accent);
+  border-top: none;
+
   padding: 32px 16px;
 
   display: flex;
