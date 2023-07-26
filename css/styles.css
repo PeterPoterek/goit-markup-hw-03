@@ -20,7 +20,9 @@ body {
 }
 /* utility classes */
 .container {
-  width: 1158px;
+  /* width: 1128px; */
+  max-width: 1158px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 120px;
@@ -67,10 +69,6 @@ p {
   padding: 24px 24px;
 
   border-bottom: 1px solid var(--color-accent);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header-wrapper {
   display: flex;
@@ -198,10 +196,6 @@ p {
 /* End of Hero section */
 
 /* Company Values section */
-.company-values-container {
-  display: flex;
-  justify-content: center;
-}
 
 .company-values-list {
   display: flex;
@@ -232,17 +226,6 @@ p {
 
 /* Our work section */
 
-.our-work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.our-work-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  gap: 72px;
-}
 .our-work-title {
   color: var(--color-dark);
 
@@ -253,6 +236,8 @@ p {
 
   text-transform: capitalize;
   text-align: center;
+
+  margin-bottom: 72px;
 }
 .our-work-list {
   display: flex;
@@ -272,12 +257,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.our-team-wrapper {
-  display: flex;
-  flex-direction: column;
 
-  gap: 72px;
-}
 .our-team-title {
   color: var(--color-dark);
 
@@ -288,6 +268,8 @@ p {
 
   text-transform: capitalize;
   text-align: center;
+
+  margin-bottom: 72px;
 }
 .our-team-list {
   display: flex;
@@ -334,9 +316,6 @@ p {
   background-color: var(--color-dark);
   padding-top: 101.5px;
   padding-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-list {
@@ -447,10 +426,6 @@ p {
   border-top: none;
 
   padding: 32px 16px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 .gallery-image-label {
   color: var(--color-dark);
@@ -459,6 +434,8 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  margin-bottom: 8px;
 }
 .gallery-image-description {
   line-height: 1.5;
