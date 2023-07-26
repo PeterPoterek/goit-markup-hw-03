@@ -67,9 +67,12 @@ p {
   padding: 24px 24px;
 
   border-bottom: 1px solid var(--color-accent);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-wrapper {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,15 +201,12 @@ p {
 .company-values-container {
   display: flex;
   justify-content: center;
-  gap: 24px;
 }
 
 .company-values-list {
   display: flex;
   justify-content: center;
 
-  margin: 0;
-  padding: 0;
   gap: 24px;
 }
 .company-values-wrapper {
@@ -223,16 +223,10 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-
-  margin: 0;
-  padding: 0;
 }
 .company-values-description {
   line-height: 1.5;
   letter-spacing: 0.32px;
-
-  margin: 0;
-  padding: 0;
 }
 /* End of Company Values */
 
@@ -246,8 +240,6 @@ p {
 .our-work-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   gap: 72px;
 }
@@ -283,8 +275,6 @@ p {
 .our-team-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   gap: 72px;
 }
@@ -348,11 +338,11 @@ p {
   justify-content: center;
   align-items: center;
 }
-.footer-wraper {
-}
+
 .footer-list {
   display: flex;
   flex-direction: column;
+
   gap: 17.5px;
 }
 .footer-logo {
@@ -382,19 +372,15 @@ p {
 /* End of Footer section */
 
 /* Filter section */
-.filter-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .filter-list-container {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
 
   padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .filter-list {
@@ -432,7 +418,6 @@ p {
 /* Gallery section */
 
 .gallery-section {
-  padding-top: 72px;
   padding-bottom: 120px;
   display: flex;
   justify-content: center;
