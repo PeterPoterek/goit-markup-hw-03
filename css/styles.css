@@ -22,8 +22,6 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-
-  border: 1px solid red;
 }
 .section {
   padding-top: 120px;
@@ -194,13 +192,10 @@ p {
 
 .company-values-list {
   display: flex;
-
+  justify-content: space-between;
   gap: 24px;
 }
 .company-values-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   max-width: 264px;
 }
 
@@ -211,6 +206,8 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  margin-bottom: 8px;
 }
 .company-values-description {
   line-height: 1.5;
@@ -235,7 +232,7 @@ p {
 }
 .our-work-list {
   display: flex;
-
+  justify-content: space-between;
   gap: 24px;
 }
 .our-work-image {
@@ -281,10 +278,6 @@ p {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-card-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -297,6 +290,8 @@ p {
   letter-spacing: 0.4px;
 
   text-align: center;
+
+  margin-bottom: 8px;
 }
 .our-team-description {
   line-height: 1.5;
@@ -398,10 +393,9 @@ p {
 .gallery-image-list {
   display: flex;
   flex-wrap: wrap;
+
+  justify-content: space-between;
   gap: 48px 24px;
-}
-.gallery-image-list-item {
-  flex-basis: calc((100% - 48px) / 3);
 }
 
 .gallery-image-card {
