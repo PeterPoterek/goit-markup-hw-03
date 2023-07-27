@@ -72,6 +72,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.header-navcontainer {
+  display: flex;
+  gap: 76px;
+}
 .header-logo {
   color: var(--color-dark);
 
@@ -308,12 +312,6 @@ p {
   padding-bottom: 100px;
 }
 
-.footer-list {
-  display: flex;
-  flex-direction: column;
-
-  gap: 17.5px;
-}
 .footer-logo {
   color: var(--color-light);
 
@@ -337,6 +335,8 @@ p {
   letter-spacing: 0.32px;
 
   max-width: 264px;
+
+  margin-top: 17.5px;
 }
 /* End of Footer section */
 
